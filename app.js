@@ -1,6 +1,6 @@
 // Replace with your ThingSpeak channel ID and Read API key
-const channelId = "YOUR_CHANNEL_ID";
-const apiKey = "YOUR_READ_API_KEY";
+const channelId = "E6LPN91S3ZK22S8O";
+const apiKey = "3ERIMAUJFQYZGENN";
 
 // Chart.js setup
 const voltageChart = new Chart(document.getElementById("voltageChart"), {
