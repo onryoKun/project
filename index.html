@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Sensor Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .chart-container { width: 80%; margin: auto; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h2>ESP32 Sensor Dashboard</h2>
+    <div class="chart-container">
+        <canvas id="voltageChart"></canvas>
+        <canvas id="currentChart"></canvas>
+        <canvas id="tempChart"></canvas>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
