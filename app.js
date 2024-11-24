@@ -1,5 +1,5 @@
 // Replace with your ThingSpeak channel ID and Read API key
-const channelId = "E6LPN91S3ZK22S8O";
+const channelId = "2741509";
 const apiKey = "3ERIMAUJFQYZGENN";
 
 // Chart.js setup
